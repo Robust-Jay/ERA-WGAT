@@ -1,0 +1,14 @@
+{
+    "seed": 32,
+    "epochs": 60,
+    "loss": "MSE_VGG",
+    "batch_size": 2,
+    "init_lr": 0.0001,
+    "weight_decay": 1e-3,
+
+    "pgat_layers": 3,
+    "k": 8,
+    "VGG_ratio": 0.0001,
+
+    "out": "out/layers/3"
+}
